@@ -1,0 +1,53 @@
+body{
+  background-color: #304040;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+#container{
+  background-color: #405050;
+  width: 80%;
+  margin: auto;
+  border-radius: 1%;
+}
+
+#svg{
+  border-radius: 2%;
+  box-shadow: 0px 0px 15px 2px black;
+  background-color: #404040;
+  text-align: center;
+  margin: 2em;
+}
+
+#title{
+  fill: #f0f0f0;
+  font-size: xx-large;
+}
+#subTitle{
+  fill: #f0f0f0;
+  font-size: large;
+}
+
+.dot{
+  stroke: black;
+  stroke-width: 1px;
+  fill: rgba(250,50,50,.5);
+}
+
+#legend{
+  font-size: medium;
+  font-weight: bold;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  font: 12px sans-serif;
+  background: #304040;
+  border: solid 0.1em rgb(50, 150, 150);
+  border-radius: 5%;
+  box-shadow: inset 0px 0px 10px 10px rgba(20, 20, 20, 0.5);
+  text-align: start;
+  pointer-events: none;
+}

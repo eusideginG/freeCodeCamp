@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Free Code Camp - Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <div id="formContainerId">
+          <form id="survey-form">
+            <label for="name" id="name-label">Name<br>
+            </label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+            <label for="email" id="email-label">Email<br>
+            </label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+            <label for="number" id="number-label">Age (optional)<br>
+            </label>
+            <input type="number" id="number" name="number" placeholder="Age" min="10" max="99">
+            <br><br>
+            <label for="dropdown">Gender<br>
+            </label>
+            <select id="dropdown" name="dropdown">
+              <option value="male">
+                Male
+              </option>
+              <option value="female">
+                Female
+              </option>
+              <option value="other">
+                Other
+              </option>
+            </select>
+            <br><br>
+            <label for="radioBtn">What are you ?<br>
+            </label>
+            <label>
+            <input class="radioClass" type="radio" name="radioBtn" id="radioBtnHuman" value="human" checked>Human
+            </label><br>
+            <label>
+            <input class="radioClass" type="radio" name="radioBtn" id="radioBtnRobot" value="robot">Robot
+            </label><br>
+            <label>
+            <input class="radioClass" type="radio" name="radioBtn" id="radioBtnMonkey" value="monkey">Monkey
+            </label>
+            <br><br>
+            <label for="checkbox">What do you have ?<br>
+            </label>
+            <label>
+            <input class="checkboxClass" type="checkbox" name="checkbox" id="checkbox1" value="Mon" checked>Monkeys
+            </label><br>
+            <label>
+            <input class="checkboxClass" type="checkbox" name="checkbox" id="checkbox2" value="Rob">Robots
+            </label><br>
+            <label>
+            <input class="checkboxClass" type="checkbox" name="checkbox" id="checkboxI" value="Hum">Hum...
+            </label>
+            <br><br><br>
+            <label for="textarea">Any comments ?<br>
+            </label>
+            <textarea placeholder="Tell us about your Monkeys"></textarea>
+            <br><br>
+            <button type="submit" id="submit">Sybmit
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

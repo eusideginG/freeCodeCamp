@@ -1,0 +1,41 @@
+body{
+  background-color: #32321a;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+#svg{
+  border-radius: 2%;
+  background-color: #54542b;
+  text-align: center;
+}
+
+#title{
+  font-size: xx-large;
+  font-weight: bold;
+  fill: #f0f0f0;
+}
+
+#legend{
+  fill: #f0f0f0;
+  font-size: medium;
+}
+
+.county:hover{
+  stroke: black;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  height: 30px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font: 14px sans-serif;
+  background: #32321a;
+  border: solid 0.1em rgb(200, 200, 100);
+  border-radius: 5%;
+  box-shadow: inset 0px 0px 10px 10px rgba(20, 20, 20, 0.5);
+  pointer-events: none;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Free Code Camp - Technical Documentation Page</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav id="navbar">
+  <header id="navbarHeaderId">JavaScript Documentation</header><hr>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li><hr>
+    <li><a class="nav-link" href="#Console">Console</a></li><hr>
+    <li><a class="nav-link" href="#If_statement">If statement</a></li><hr>
+    <li><a class="nav-link" href="#For_statement">For statement</a></li><hr>
+    <li><a class="nav-link" href="#Functions">Functions</a></li><hr>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.</p>
+      <p>A fast javascript documentation page for free code camp.<br>Below is a list of what we will cover:</p>
+      <ul>
+        <li>Introduction</li>
+        <li>Console</li>
+        <li>If statement</li>
+        <li>For statement</li>
+        <li>Functions</li>
+      </ul>
+      <p>Let's see how to assign a variable...</p>
+      <code>var number = 1; //var has the largest scope<br>
+        let number1 = "2"; //let has scope with in a block of code<br>
+        const number2 = 3.0; //cosnt it's a constant and can't change
+      </code>
+    </article>
+  </section><br>
+  <section class="main-section" id="Console">
+    <header>Console</header>
+    <article>
+      <p>Console is for debaging purposes.</p>
+      <p>We will use the "console.log()" function to display something in our browser console.</p>
+      <code>//it's very simble<br>
+      console.log(number) //output will be: 1</code>
+    </article>
+  </section><br>
+  <section class="main-section" id="If_statement">
+    <header>If statement</header>
+    <article>
+      <p>With if we can choose when to execute a line or block of code.</p>
+      <p>here is an example:</p>
+      <code>if(number === 1){<br>
+        console.log(number + 1) //output: 2<br>
+        };</code>
+    </article>
+  </section><br>
+  <section class="main-section" id="For_statement">
+    <header>For statement</header>
+    <article>
+      <p>With for we can repeat a line or a block of code</p>
+      <p>Here is an example:</p>
+      <code>for(let i = 0; i < 10; i++){<br>
+        console.log(number + i) //the output will be 1-10<br>
+      }</code>
+    </article>
+  </section><br>
+  <section class="main-section" id="Functions">
+    <header>Functions</header>
+    <article>
+      <p>Function is to organize and reuse line or block of code.</p>
+      <p>Lets take a look a es6 example:</p>
+      <code>cosnt func = (var) => {<br>
+        console.log(var) //var is local variable<br>
+      }<br>
+      func(5) //output: 5</code>
+      
+    </article>
+  </section>
+</main>
+</body>
+</html>

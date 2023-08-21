@@ -1,0 +1,122 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(80, 90, 120);
+  margin: 5em;
+}
+
+#appWrapper{
+  background-color: rgb(30, 30, 30);
+  border: 0.3rem solid rgb(30, 30, 30);
+  display: grid;
+  grid-template-rows:2rem 2rem repeat(5, 4rem);
+  grid-template-columns:repeat(4, 4rem);
+  justify-content: center;
+  place-items: stretch;
+  gap: 0.2rem;
+  grid-template-areas:
+    "diw diw diw diw"
+    "diw diw diw diw"
+    "ac c div mul"
+    "sev eig nin sub"
+    "fou fiv six add"
+    "one two thr equ"
+    "zer zer dec equ";
+}
+#clear{
+  grid-area: ac;
+}
+#delete{
+  grid-area: c;
+}
+#divide{
+  grid-area: div;
+}
+#multiply{
+  grid-area: mul;
+}
+#seven{
+  grid-area: sev;
+}
+#eight{
+  grid-area: eig;
+}
+#nine{
+  grid-area: nin;
+}
+#subtract{
+  grid-area: sub;
+}
+#four{
+  grid-area: fou;
+}
+#five{
+  grid-area: fiv;
+}
+#six{
+  grid-area: six;
+}
+#add{
+  grid-area: add;
+}
+#one{
+  grid-area: one;
+}
+#two{
+  grid-area: two;
+}
+#three{
+  grid-area: thr;
+}
+#equals{
+  grid-area: equ;
+}
+#zero{
+  grid-area: zer;
+}
+#decimal{
+  grid-area: dec;
+}
+
+#displayWrapper{
+  overflow: hidden;
+  grid-area: diw;
+  background-color: rgb(90, 90, 90);
+  color: rgb(240, 240, 240);
+  text-align: right;
+  place-self: stretch;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "mdi"
+    "dis";
+}
+#memoryDisplay{
+  font-size: 1.2rem;
+  grid-area: mdi;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+#display{
+  font-size: 1.8rem;
+  grid-area: dis;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+.clear{
+  background-color: rgb(170, 70, 70);
+}
+.equal{
+  background-color: rgb(70, 70, 170);
+}
+.doa{
+  background-color: rgb(70, 170, 70);
+}
+.num{
+  background-color: rgb(70, 70, 70);
+}
+.btn{
+  font-size: 2em;
+  color: rgb(240, 240, 240);
+}

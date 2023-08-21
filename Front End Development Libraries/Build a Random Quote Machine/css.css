@@ -1,0 +1,26 @@
+#quote-box{
+  background-color: white;
+  text-align: center;
+  width: 500px;
+  block-size: fit-content;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+#author{
+  text-align: right;
+  margin: 20px;
+}
+#leftSpan{
+  text-align: left;
+  margin-right: 15%;
+}
+#rightSpan{
+  text-align: right;
+  margin-left: 15%;
+}
+#twitter, #tumblr{
+  width: 40px;
+}

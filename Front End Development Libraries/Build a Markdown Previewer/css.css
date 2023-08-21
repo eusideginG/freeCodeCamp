@@ -1,0 +1,88 @@
+#body{
+  background-color: rgb(135, 181, 181);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 1100px;
+}
+.barName{
+  font-weight: bold;
+  font-size: 16px;
+}
+.btn{
+  background-color: rgb(74, 163, 163) !important;
+  float: right;
+  width: 40px;
+}
+.editor{
+  min-width: 500px;
+  align-self: center;
+  margin: 20px;
+}
+#editorBar #winBar{
+  background-color: rgb(74, 163, 163);
+  width: 100%;
+  height: 45px;
+  padding: 10px 15px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-bottom-width: 0px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 15px 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+#editor{
+  background-color: rgb(192, 216, 216);
+  height: 200px;
+  width: 700px;
+  min-height: 200px;
+  min-width: 700px;
+  max-height: 100%;
+  max-width: 500px;
+  padding: 10px 15px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.5px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 15px 15px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+input:focus,
+textarea {
+  outline: none;
+}
+
+.previewer{
+  min-width: 600px;
+  margin-bottom: 20px;
+}
+
+.previewer #winBar{
+  background-color: rgb(74, 163, 163);
+  width: 100%;
+  height: 45px;
+  min-width: 1000px;
+  padding: 10px 15px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-bottom-width: 0px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 15px 5px 10px 5px rgba(0, 0, 0, 0.3)
+}
+.previewer #preview{
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  background-color: rgb(192, 216, 216);
+  overflow: auto;
+  padding: 0px 15px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 15px 15px 10px 5px rgba(0, 0, 0, 0.3);
+}

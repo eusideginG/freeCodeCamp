@@ -1,0 +1,47 @@
+body{
+  background-color: #303030;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+#container{
+  /*
+  outline: solid 2px red;
+  */
+}
+
+#svg{
+  border: solid 0.2em rgb(100, 150, 250);
+  border-radius: 2%;
+  background-color: #505050;
+  text-align: center;
+}
+
+#title{
+  font-size: xx-large;
+  font-weight: bold;
+  fill: rgb(230, 230, 230);
+}
+
+.bar{
+  fill: navy;
+}
+.bar:hover{
+  fill: silver;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font: 14px sans-serif;
+  background: #303030;
+  border: solid 0.1em rgb(100, 150, 250);
+  border-radius: 5%;
+  box-shadow: inset 0px 0px 10px 10px rgba(20, 20, 20, 0.5);
+  pointer-events: none;
+}

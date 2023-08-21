@@ -1,0 +1,58 @@
+body{
+  background-color: #202020;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+#svg{
+  border-radius: 2%;
+  box-shadow: 0px 0px 15px 2px black;
+  background-color: #303030;
+  text-align: center;
+  margin: 1em;
+  padding: 1em;
+}
+
+#title{
+  margin: 0.3em;
+  padding: 0;
+}
+
+#description{
+  margin: 0.2em;
+  padding: 0;
+}
+
+.rectText{
+  fill: #f0f0f0;
+  font-size: 0.6rem;
+  overflow: scroll;
+}
+
+#legend{
+  background-color: #404040;
+  box-shadow: 0px 0px 15px 2px black;
+  width: 30%;
+  border-radius: 1em;
+}
+
+.legendText{
+  fill: #f0f0f0;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.tile:hover{
+  stroke: white;
+}
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  font: 14px sans-serif;
+  background: #303030;
+  border: solid 0.1em rgb(200, 200, 200);
+  border-radius: 5%;
+  box-shadow: inset 0px 0px 10px 10px rgba(20, 20, 20, 0.5);
+  pointer-events: none;
+}

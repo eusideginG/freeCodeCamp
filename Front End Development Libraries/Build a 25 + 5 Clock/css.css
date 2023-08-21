@@ -1,0 +1,95 @@
+body{
+  background-color: rgb(35, 45, 85);
+  color: rgb(230, 230, 230);
+  text-align: center;
+  font-size: 2em;
+}
+i{
+  font-size: 1.2em;
+}
+.btn{
+  border: 0.05em solid black;
+  border-radius: 50%;
+  box-shadow: inset 0em 0em 0.1em silver;
+  width: 3em;
+  height: 3em;
+  margin: 0.5em;
+  text-align: center;
+  color: rgb(230, 230, 230);
+}
+#appWrapper{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2em;
+  border: 0.05em solid black;
+  border-radius: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-right: none;
+  border-left: none;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+#title{
+  border-bottom: 0.05em solid black;
+  border-radius: 30%;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  box-shadow: inset 0em -1.5em 1.5em -2em gold;
+}
+
+#setTimeButtons{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: 
+    "t1 s t2"
+    "bt s st";
+  column-gap: 1em;
+  border: 0.05em solid black;
+  border-radius: 20%;
+  border-bottom: none;
+  border-top: none;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+#spacer{
+  grid-area: s;
+}
+#break-label{
+  grid-area: t1;
+  align-self: end;
+}
+#session-label{
+  grid-area: t2;
+  align-self: end;
+}
+#breakWrapper{
+  grid-area: bt;
+}
+#sessionWrapper{
+  grid-area: st;
+}
+
+#display{
+  border: 0.05em solid black;
+  border-radius: 20%;
+  border-bottom: none;
+  border-top: none;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+#timer-label{
+  margin-top: 1em;
+}
+
+#pprButtons{
+  border: 0.05em solid black;
+  border-radius: 20%;
+  border-top: none;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
